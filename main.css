@@ -1,0 +1,140 @@
+/* Reseteamos algunos estilos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  header nav ul li a:hover {
+    color: #ff9900;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .productos {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  .productos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .producto-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .producto-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .producto-card h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .producto-card p {
+    font-size: 18px;
+    color: #ff9900;
+  }
+  
+  .cantidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .cantidad button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .cantidad button:hover {
+    background-color: #e68900;
+  }
+  
+  .cantidad-numero {
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  .agregar {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .agregar:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
